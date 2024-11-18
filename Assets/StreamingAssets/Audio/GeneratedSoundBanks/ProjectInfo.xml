@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="sonido-2---tp-final_WwiseProject" GUID="{D155C025-3DA2-4630-8F49-9E62E2062B21}" Generator="2023.1.8.8601"/>
+	<CacheRoot>../../../../sonido-2---tp-final_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{1C1A19A9-F400-4998-9545-B389CF499566}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../sonido-2---tp-final_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{46640490-5C39-4AB1-9084-4AA2BEAC8696}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../sonido-2---tp-final_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{E4DFF2D3-7938-4408-8478-7F970FDCC3AB}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{57F9DED7-A759-D3EA-6908-4D489083FC24}</FileHash>
+</ProjectInfo>

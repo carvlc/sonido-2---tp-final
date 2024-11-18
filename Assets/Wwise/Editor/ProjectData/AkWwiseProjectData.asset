@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 51837e85cd0bff4bacd982ddd227f181
     GuidInternal: 
-    m_lastTime: -8584709265169116631
-    List: []
+    m_lastTime: -8584697218921815799
+    List:
+    - name: main
+      guid: ad8cc72344b83540a50ad08fe1499103
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 51837e85cd0bff4bacd982ddd227f181
+      - ElementName: main
+        ObjectType: 7
+        guid: ad8cc72344b83540a50ad08fe1499103
+      Path: SoundBanks\Default Work Unit\main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 56febe24469aac44ad0b1528bbfba685
     GuidInternal: 
-    m_lastTime: -8584709265169646497
-    List: []
+    m_lastTime: -8584697189106434569
+    List:
+    - name: Play_Ambiente
+      guid: 8629d0a0312b144cbf516cfecab23dc6
+      id: 94063951
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Play_Ambiente
+        ObjectType: 3
+        guid: 8629d0a0312b144cbf516cfecab23dc6
+      Path: Events\Default Work Unit\Play_Ambiente
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ba_o_in
+      guid: c457a8914258824fbc40925f9a9c67a4
+      id: 988224811
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Play_Ba_o_in
+        ObjectType: 3
+        guid: c457a8914258824fbc40925f9a9c67a4
+      Path: Events\Default Work Unit\Play_Ba_o_in
+      maxAttenuation: 0
+      maxDuration: 3.1535625
+      minDuration: 3.1535625
+    - name: Play_FX___Notebook
+      guid: e7a839d4c7ddc448aac30264e8e9154b
+      id: 1755425866
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Play_FX___Notebook
+        ObjectType: 3
+        guid: e7a839d4c7ddc448aac30264e8e9154b
+      Path: Events\Default Work Unit\Play_FX___Notebook
+      maxAttenuation: 7
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +204,7 @@ MonoBehaviour:
     m_lastTime: -8584709265168457058
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000070000000b0000000c00000011000000120000002700000028000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

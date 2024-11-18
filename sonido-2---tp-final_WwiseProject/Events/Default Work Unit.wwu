@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{24BEFE56-9A46-44AC-AD0B-1528BBFBA685}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{24BEFE56-9A46-44AC-AD0B-1528BBFBA685}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{24BEFE56-9A46-44AC-AD0B-1528BBFBA685}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Ambiente" ID="{A0D02986-2B31-4C14-BF51-6CFECAB23DC6}">
+					<ChildrenList>
+						<Action Name="" ID="{029CCBA5-EDD7-4779-B978-3567A0A01286}" ShortID="460828283">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiente" ID="{9FA1EE29-D70F-45B7-A1D6-D9A57A0C662F}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ba_o_in" ID="{91A857C4-5842-4F82-BC40-925F9A9C67A4}">
+					<ChildrenList>
+						<Action Name="" ID="{D32BCF2B-5ECF-429D-A203-2922B53A2B68}" ShortID="46549992">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Baño-in" ID="{3160314B-060C-4FAF-B289-49AB75294CB1}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FX___Notebook" ID="{D439A8E7-DDC7-48C4-AAC3-0264E8E9154B}">
+					<ChildrenList>
+						<Action Name="" ID="{80859537-509E-4040-BE58-6C4C0309ED9D}" ShortID="1387196">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FX - Notebook" ID="{270FEB39-56E7-4D31-A439-6346CA718707}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

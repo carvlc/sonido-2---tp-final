@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	94063951	Play_Ambiente			\Default Work Unit\Play_Ambiente	
+	988224811	Play_Ba_o_in			\Default Work Unit\Play_Ba_o_in	
+	1755425866	Play_FX___Notebook			\Default Work Unit\Play_FX___Notebook	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	161855950	FX - Notebook	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\TPFinalCuarto_4D9C70EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX - Notebook		876464
+	286294921	Ambiente	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\Ambiente_167E9FAC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente		39222280
+	684754697	Baño-in	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\Baño-in_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baño-in		605580
+

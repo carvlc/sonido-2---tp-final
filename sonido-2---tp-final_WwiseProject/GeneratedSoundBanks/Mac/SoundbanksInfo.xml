@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D3203B59-B15A-6F91-BC32-C81418116032}">
+			<ShortName>main</ShortName>
+			<Path>main.bnk</Path>
+			<Media>
+				<File Id="161855950" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TPFinalCuarto.wav</ShortName>
+					<CachePath>SFX/TPFinalCuarto_4D9C70EA.wem</CachePath>
+				</File>
+				<File Id="286294921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambiente.wav</ShortName>
+					<CachePath>SFX/Ambiente_167E9FAC.wem</CachePath>
+				</File>
+				<File Id="684754697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Baño-in.wav</ShortName>
+					<CachePath>SFX/Baño-in_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="94063951" Name="Play_Ambiente" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="286294921"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="988224811" Name="Play_Ba_o_in" DurationType="OneShot" DurationMin="3.1535625" DurationMax="3.1535625">
+					<MediaRefs>
+						<MediaRef Id="684754697"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1755425866" Name="Play_FX___Notebook" MaxAttenuation="7" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="161855950"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{046696E3-772E-8DD0-3395-D03A464AE2EB}</FileHash>
+</SoundBanksInfo>

@@ -8,7 +8,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-20</Value>
+								<Value>-15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -94,6 +94,161 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="TPFinalCuarto" ID="{8D212600-19EF-4DA1-80F3-27A179BEC4AB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="fx-cocina" ID="{92918049-6375-43D3-BC34-976531DF6576}" ShortID="667138288">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="cocina" ID="{0AB6421C-2CD2-4D79-A909-2FFFE8F93626}" WorkUnitID="{070A2511-AD51-42EB-A49E-3F744B0422D6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B0EB853-EE00-4698-B5C4-A1F6C4763C69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB616627-0573-4269-91F1-02000932AC86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fx-cocina" ID="{E4F17C68-2BBE-4BAA-8A25-FA3D18CBA282}">
+							<Language>SFX</Language>
+							<AudioFile>fx-cocina.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="163592989"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fx-cocina" ID="{E4F17C68-2BBE-4BAA-8A25-FA3D18CBA282}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="fx-heladera" ID="{B5AE0FDC-590B-4CCD-9D18-BC75806BD23D}" ShortID="96982552">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="heladera" ID="{CA628A9E-9211-4CF9-BC81-5A4C4259E4BB}" WorkUnitID="{070A2511-AD51-42EB-A49E-3F744B0422D6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B0EB853-EE00-4698-B5C4-A1F6C4763C69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB616627-0573-4269-91F1-02000932AC86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fx-heladera" ID="{CB7410E6-24CE-419B-AAC9-32F5FAAB7872}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1000"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.635075757575758"/>
+								<Property Name="LoopEnd" Type="Real64" Value="6.36606060606061"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>fx-heladera.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="718561185"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fx-heladera" ID="{CB7410E6-24CE-419B-AAC9-32F5FAAB7872}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="fx-microondas" ID="{BB5467F4-5792-4904-920E-00C6D0CC3E76}" ShortID="841213375">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="microondas" ID="{DE55FFE0-03D0-4379-BB0B-BD490ED28910}" WorkUnitID="{070A2511-AD51-42EB-A49E-3F744B0422D6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B0EB853-EE00-4698-B5C4-A1F6C4763C69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB616627-0573-4269-91F1-02000932AC86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fx-microondas" ID="{9A15BECA-6559-471E-8D6C-DF7D7BC49E24}">
+							<Language>SFX</Language>
+							<AudioFile>fx-microondas.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="712983892"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fx-microondas" ID="{9A15BECA-6559-471E-8D6C-DF7D7BC49E24}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="fx-televisor" ID="{44777A5A-0530-4870-BEAC-39DC5184A8DE}" ShortID="584447061">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="televisor" ID="{9F348D56-9E16-4D39-82E1-7438B7B51D5F}" WorkUnitID="{070A2511-AD51-42EB-A49E-3F744B0422D6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B0EB853-EE00-4698-B5C4-A1F6C4763C69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB616627-0573-4269-91F1-02000932AC86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fx-televisor" ID="{19A78E32-E9CD-4589-8624-93E7D5C5E7BA}">
+							<Language>SFX</Language>
+							<AudioFile>fx-televisor.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="423623887"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fx-televisor" ID="{19A78E32-E9CD-4589-8624-93E7D5C5E7BA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="fx-maquinita" ID="{D36475F5-A13D-482D-BA77-B270B3F459F1}" ShortID="341903899">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="arcade" ID="{357F3E5B-7347-47C9-B3B4-6042A8E186E9}" WorkUnitID="{070A2511-AD51-42EB-A49E-3F744B0422D6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B0EB853-EE00-4698-B5C4-A1F6C4763C69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB616627-0573-4269-91F1-02000932AC86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fx-maquinita" ID="{99506391-2B8F-407C-919B-499D410525D9}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="12.7922510822511"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>fx-maquinita.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="866682736"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fx-maquinita" ID="{99506391-2B8F-407C-919B-499D410525D9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

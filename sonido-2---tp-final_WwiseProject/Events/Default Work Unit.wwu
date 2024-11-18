@@ -12,6 +12,46 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{BB0C97C4-EEA7-4D31-B813-AA1C0470E9D1}" ShortID="269483966">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MIX" ID="{DA12D0B6-6535-48BB-9379-E4739D5D5FB4}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3FC24AA3-F346-49CF-BF3F-0DACDA3A9B2F}" ShortID="695600629">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SegundaMelodiaBaño" ID="{29630E9F-E76A-4ACE-9F04-D5AAEA2BB274}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{46560A44-F653-4029-B660-1FEA4980435F}" ShortID="354424946">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SegundaMelodiaCocina" ID="{655F0C2A-4534-4D6D-B4BF-DB2A7280D3A1}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8FF95975-8795-4239-BC58-2B80483A7050}" ShortID="731086304">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SegundaMelodiaHabitacion" ID="{92BF3F2D-7126-4796-AE88-50AC390D69BC}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Ba_o_in" ID="{91A857C4-5842-4F82-BC40-925F9A9C67A4}">
@@ -31,6 +71,151 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FX - Notebook" ID="{270FEB39-56E7-4D31-A439-6346CA718707}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fx_heladera" ID="{91300E00-6359-474D-B884-7B8A524D2CA2}">
+					<ChildrenList>
+						<Action Name="" ID="{7344C0FF-D416-4F58-8CBB-0C573C2AEA9A}" ShortID="378256710">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fx-heladera" ID="{B5AE0FDC-590B-4CCD-9D18-BC75806BD23D}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fx_microondas" ID="{A2C44397-127A-4DF7-81CC-3B68E86F9BBD}">
+					<ChildrenList>
+						<Action Name="" ID="{0B49C507-8325-43FA-9F57-ECE5103EE282}" ShortID="1036426558">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fx-microondas" ID="{BB5467F4-5792-4904-920E-00C6D0CC3E76}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fx_televisor" ID="{02E26533-93CF-4B50-A6AB-883810437242}">
+					<ChildrenList>
+						<Action Name="" ID="{17C9C188-F519-4CBE-A39C-C92B87A6EB38}" ShortID="234225462">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fx-televisor" ID="{44777A5A-0530-4870-BEAC-39DC5184A8DE}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fx_cocina" ID="{5FD4409F-9E11-46EF-947C-F4D302710441}">
+					<ChildrenList>
+						<Action Name="" ID="{CECA56B5-5DDC-49FD-BCDA-13EED53D78DE}" ShortID="385933322">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fx-cocina" ID="{92918049-6375-43D3-BC34-976531DF6576}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_fx_maquinita" ID="{9671FDB3-C37B-4052-9F3B-B0586887E370}">
+					<ChildrenList>
+						<Action Name="" ID="{A489261D-DCF2-4D45-9C78-9667D51383A9}" ShortID="37338239">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="fx-maquinita" ID="{D36475F5-A13D-482D-BA77-B270B3F459F1}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_Banio" ID="{C061BDF0-C327-4B6C-83B4-3A6AE18AC96F}">
+					<ChildrenList>
+						<Action Name="" ID="{14392B0C-BB53-482B-A020-E72AD361D370}" ShortID="245037775">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SegundaMelodiaBaño" ID="{29630E9F-E76A-4ACE-9F04-D5AAEA2BB274}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Banio" ID="{54E65F89-70C0-4B99-94F2-B62DFF2E03BB}">
+					<ChildrenList>
+						<Action Name="" ID="{2DA41B8F-E5EE-4BB7-8477-469B14A914D5}" ShortID="174452295">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SegundaMelodiaBaño" ID="{29630E9F-E76A-4ACE-9F04-D5AAEA2BB274}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_Cocina" ID="{424BD7A9-58EC-43A8-BAB4-9DE3FDA6FEFA}">
+					<ChildrenList>
+						<Action Name="" ID="{62A03688-D991-42FF-9939-F365A99198A4}" ShortID="1044678788">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SegundaMelodiaCocina" ID="{655F0C2A-4534-4D6D-B4BF-DB2A7280D3A1}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Cocina" ID="{27D017EE-6DE7-460A-9827-4EFA46BBFA01}">
+					<ChildrenList>
+						<Action Name="" ID="{1D489F2A-57FE-4F38-B8BA-6348CDAD46A9}" ShortID="39028321">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SegundaMelodiaCocina" ID="{655F0C2A-4534-4D6D-B4BF-DB2A7280D3A1}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_Habitacion" ID="{AE51C694-EB8B-4D87-8F15-59CB0275BE8F}">
+					<ChildrenList>
+						<Action Name="" ID="{BC3E9747-D71B-4FD7-BEE0-1F7993D2EA38}" ShortID="339889713">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SegundaMelodiaHabitacion" ID="{92BF3F2D-7126-4796-AE88-50AC390D69BC}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Habitacion" ID="{66B6D57A-4E6D-4620-B988-96912D0F8243}">
+					<ChildrenList>
+						<Action Name="" ID="{BEBB0EBB-9A92-48A1-845F-2F5EABFA8836}" ShortID="803582748">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SegundaMelodiaHabitacion" ID="{92BF3F2D-7126-4796-AE88-50AC390D69BC}" WorkUnitID="{9D7A1A5F-9C49-4F3F-B36E-76551E861471}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

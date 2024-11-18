@@ -22,27 +22,92 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D3203B59-B15A-6F91-BC32-C81418116032}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2FE8BE4B-1006-7709-E63E-0B52199A780A}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
 				<File Id="161855950" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TPFinalCuarto.wav</ShortName>
-					<CachePath>SFX/TPFinalCuarto_4D9C70EA.wem</CachePath>
+					<CachePath>SFX/TPFinalCuarto_5BE193FE.wem</CachePath>
+				</File>
+				<File Id="163592989" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fx-cocina.wav</ShortName>
+					<CachePath>SFX/fx-cocina_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="286294921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambiente.wav</ShortName>
 					<CachePath>SFX/Ambiente_167E9FAC.wem</CachePath>
 				</File>
+				<File Id="292183624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SegundaMelodiaHabitacion.wav</ShortName>
+					<CachePath>SFX/SegundaMelodiaHabitacion_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="355457478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SegundaMelodiaCocina.wav</ShortName>
+					<CachePath>SFX/SegundaMelodiaCocina_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="423623887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fx-televisor.wav</ShortName>
+					<CachePath>SFX/fx-televisor_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="684754697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Baño-in.wav</ShortName>
 					<CachePath>SFX/Baño-in_818F3B66.wem</CachePath>
 				</File>
+				<File Id="712983892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fx-microondas.wav</ShortName>
+					<CachePath>SFX/fx-microondas_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="713217392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SegundaMelodiaBaño.wav</ShortName>
+					<CachePath>SFX/SegundaMelodiaBaño_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="718561185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fx-heladera.wav</ShortName>
+					<CachePath>SFX/fx-heladera_EA6C20AA.wem</CachePath>
+				</File>
+				<File Id="791139087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FlautaAcomp.wav</ShortName>
+					<CachePath>SFX/FlautaAcomp_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="866682736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fx-maquinita.wav</ShortName>
+					<CachePath>SFX/fx-maquinita_D02A5813.wem</CachePath>
+				</File>
+				<File Id="905813634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Percucion.wav</ShortName>
+					<CachePath>SFX/Percucion_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1046704212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MelodiaPrincipal.wav</ShortName>
+					<CachePath>SFX/MelodiaPrincipal_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2686674804" Name="Mute_Banio" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="713217392"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2398304556" Name="Mute_Cocina" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="355457478"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4023470985" Name="Mute_Habitacion" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="292183624"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="94063951" Name="Play_Ambiente" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="286294921"/>
+						<MediaRef Id="292183624"/>
+						<MediaRef Id="355457478"/>
+						<MediaRef Id="713217392"/>
+						<MediaRef Id="791139087"/>
+						<MediaRef Id="905813634"/>
+						<MediaRef Id="1046704212"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="988224811" Name="Play_Ba_o_in" DurationType="OneShot" DurationMin="3.1535625" DurationMax="3.1535625">
@@ -55,8 +120,48 @@
 						<MediaRef Id="161855950"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2915561602" Name="Play_fx_cocina" MaxAttenuation="5" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="163592989"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="816454329" Name="Play_fx_heladera" MaxAttenuation="3" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="718561185"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2280983726" Name="Play_fx_maquinita" MaxAttenuation="4" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="866682736"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1786166790" Name="Play_fx_microondas" MaxAttenuation="3" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="712983892"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="425893000" Name="Play_fx_televisor" MaxAttenuation="4" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="423623887"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2458723605" Name="UnMute_Banio" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="713217392"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2787256639" Name="UnMute_Cocina" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="355457478"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1430757354" Name="UnMute_Habitacion" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="292183624"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2EA5276E-8004-365B-45B4-67ACE25AE747}</FileHash>
+	<FileHash>{867527A7-A10C-DE4B-AF8B-DCE9C922DE74}</FileHash>
 </SoundBanksInfo>

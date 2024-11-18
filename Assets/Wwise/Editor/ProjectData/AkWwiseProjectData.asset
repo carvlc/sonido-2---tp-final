@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 51837e85cd0bff4bacd982ddd227f181
     GuidInternal: 
-    m_lastTime: -8584697218921815799
+    m_lastTime: -8584697106650306808
     List:
     - name: main
       guid: ad8cc72344b83540a50ad08fe1499103
@@ -94,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 56febe24469aac44ad0b1528bbfba685
     GuidInternal: 
-    m_lastTime: -8584697189106434569
+    m_lastTime: -8584697097183544384
     List:
+    - name: Mute_Banio
+      guid: f0bd61c027c36c4b83b43a6ae18ac96f
+      id: 2686674804
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Mute_Banio
+        ObjectType: 3
+        guid: f0bd61c027c36c4b83b43a6ae18ac96f
+      Path: Events\Default Work Unit\Mute_Banio
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_Cocina
+      guid: a9d74b42ec58a843bab49de3fda6fefa
+      id: 2398304556
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Mute_Cocina
+        ObjectType: 3
+        guid: a9d74b42ec58a843bab49de3fda6fefa
+      Path: Events\Default Work Unit\Mute_Cocina
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Mute_Habitacion
+      guid: 94c651ae8beb874d8f1559cb0275be8f
+      id: 4023470985
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Mute_Habitacion
+        ObjectType: 3
+        guid: 94c651ae8beb874d8f1559cb0275be8f
+      Path: Events\Default Work Unit\Mute_Habitacion
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Ambiente
       guid: 8629d0a0312b144cbf516cfecab23dc6
       id: 94063951
@@ -147,6 +198,142 @@ MonoBehaviour:
       maxAttenuation: 7
       maxDuration: -1
       minDuration: -1
+    - name: Play_fx_cocina
+      guid: 9f40d45f119eef46947cf4d302710441
+      id: 2915561602
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Play_fx_cocina
+        ObjectType: 3
+        guid: 9f40d45f119eef46947cf4d302710441
+      Path: Events\Default Work Unit\Play_fx_cocina
+      maxAttenuation: 5
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_fx_heladera
+      guid: 000e309159634d47b8847b8a524d2ca2
+      id: 816454329
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Play_fx_heladera
+        ObjectType: 3
+        guid: 000e309159634d47b8847b8a524d2ca2
+      Path: Events\Default Work Unit\Play_fx_heladera
+      maxAttenuation: 3
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_fx_maquinita
+      guid: b3fd71967bc352409f3bb0586887e370
+      id: 2280983726
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Play_fx_maquinita
+        ObjectType: 3
+        guid: b3fd71967bc352409f3bb0586887e370
+      Path: Events\Default Work Unit\Play_fx_maquinita
+      maxAttenuation: 4
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_fx_microondas
+      guid: 9743c4a27a12f74d81cc3b68e86f9bbd
+      id: 1786166790
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Play_fx_microondas
+        ObjectType: 3
+        guid: 9743c4a27a12f74d81cc3b68e86f9bbd
+      Path: Events\Default Work Unit\Play_fx_microondas
+      maxAttenuation: 3
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_fx_televisor
+      guid: 3365e202cf93504ba6ab883810437242
+      id: 425893000
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: Play_fx_televisor
+        ObjectType: 3
+        guid: 3365e202cf93504ba6ab883810437242
+      Path: Events\Default Work Unit\Play_fx_televisor
+      maxAttenuation: 4
+      maxDuration: -1
+      minDuration: -1
+    - name: UnMute_Banio
+      guid: 895fe654c070994b94f2b62dff2e03bb
+      id: 2458723605
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: UnMute_Banio
+        ObjectType: 3
+        guid: 895fe654c070994b94f2b62dff2e03bb
+      Path: Events\Default Work Unit\UnMute_Banio
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Cocina
+      guid: ee17d027e76d0a4698274efa46bbfa01
+      id: 2787256639
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: UnMute_Cocina
+        ObjectType: 3
+        guid: ee17d027e76d0a4698274efa46bbfa01
+      Path: Events\Default Work Unit\UnMute_Cocina
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Habitacion
+      guid: 7ad5b6666d4e2046b98896912d0f8243
+      id: 1430757354
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 56febe24469aac44ad0b1528bbfba685
+      - ElementName: UnMute_Habitacion
+        ObjectType: 3
+        guid: 7ad5b6666d4e2046b98896912d0f8243
+      Path: Events\Default Work Unit\UnMute_Habitacion
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -204,7 +391,7 @@ MonoBehaviour:
     m_lastTime: -8584709265168457058
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000070000000b0000000c00000011000000120000002700000028000000
+  ExpandedWaapiItemIds: 05000000060000000b0000000c0000000f000000110000002700000028000000290000003000000031000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

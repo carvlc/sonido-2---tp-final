@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2FE8BE4B-1006-7709-E63E-0B52199A780A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AF2D0C3D-2669-2DB4-9C31-FEBECE3FCD01}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -30,9 +30,9 @@
 					<ShortName>TPFinalCuarto.wav</ShortName>
 					<CachePath>SFX/TPFinalCuarto_5BE193FE.wem</CachePath>
 				</File>
-				<File Id="163592989" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>fx-cocina.wav</ShortName>
-					<CachePath>SFX/fx-cocina_FBC78EF0.wem</CachePath>
+				<File Id="252156204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fx-catfish.wav</ShortName>
+					<CachePath>SFX/fx-catfish_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="286294921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambiente.wav</ShortName>
@@ -50,13 +50,13 @@
 					<ShortName>fx-televisor.wav</ShortName>
 					<CachePath>SFX/fx-televisor_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="557684938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fx-horno-microondas.wav</ShortName>
+					<CachePath>SFX/fx-horno-microondas_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="684754697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Baño-in.wav</ShortName>
 					<CachePath>SFX/Baño-in_818F3B66.wem</CachePath>
-				</File>
-				<File Id="712983892" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>fx-microondas.wav</ShortName>
-					<CachePath>SFX/fx-microondas_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="713217392" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SegundaMelodiaBaño.wav</ShortName>
@@ -66,13 +66,13 @@
 					<ShortName>fx-heladera.wav</ShortName>
 					<CachePath>SFX/fx-heladera_EA6C20AA.wem</CachePath>
 				</File>
+				<File Id="773121538" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fx-cocinando.wav</ShortName>
+					<CachePath>SFX/fx-cocinando_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="791139087" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FlautaAcomp.wav</ShortName>
 					<CachePath>SFX/FlautaAcomp_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="866682736" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>fx-maquinita.wav</ShortName>
-					<CachePath>SFX/fx-maquinita_D02A5813.wem</CachePath>
 				</File>
 				<File Id="905813634" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Percucion.wav</ShortName>
@@ -122,7 +122,7 @@
 				</Event>
 				<Event Id="2915561602" Name="Play_fx_cocina" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="163592989"/>
+						<MediaRef Id="773121538"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="816454329" Name="Play_fx_heladera" MaxAttenuation="3" DurationType="Infinite">
@@ -132,12 +132,12 @@
 				</Event>
 				<Event Id="2280983726" Name="Play_fx_maquinita" MaxAttenuation="4" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="866682736"/>
+						<MediaRef Id="252156204"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1786166790" Name="Play_fx_microondas" MaxAttenuation="3" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="712983892"/>
+						<MediaRef Id="557684938"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="425893000" Name="Play_fx_televisor" MaxAttenuation="4" DurationType="Infinite">
@@ -163,5 +163,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4CA3A2AC-0F1D-AED3-BCE7-0BE5A7C07E06}</FileHash>
+	<FileHash>{38DB4CEB-80FB-C235-24C8-4C7C6FBB396F}</FileHash>
 </SoundBanksInfo>

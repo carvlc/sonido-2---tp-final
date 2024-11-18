@@ -92,7 +92,7 @@
 						<Action Name="" ID="{0B49C507-8325-43FA-9F57-ECE5103EE282}" ShortID="1036426558">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="fx-microondas" ID="{BB5467F4-5792-4904-920E-00C6D0CC3E76}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+									<ObjectRef Name="fx-horno-microondas" ID="{0433FD74-A0CB-43A5-83E8-94AD96CADDBE}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -114,7 +114,7 @@
 						<Action Name="" ID="{CECA56B5-5DDC-49FD-BCDA-13EED53D78DE}" ShortID="385933322">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="fx-cocina" ID="{92918049-6375-43D3-BC34-976531DF6576}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+									<ObjectRef Name="fx-cocinando" ID="{426BB7B0-67C6-42D1-95BF-50469DAD176A}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -125,7 +125,7 @@
 						<Action Name="" ID="{A489261D-DCF2-4D45-9C78-9667D51383A9}" ShortID="37338239">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="fx-maquinita" ID="{D36475F5-A13D-482D-BA77-B270B3F459F1}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
+									<ObjectRef Name="fx-catfish" ID="{EAF1A6B5-DAFB-4D96-BAC7-67D95E0573A0}" WorkUnitID="{FFE36700-B8B5-4787-BC82-BCE0DA4676A7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

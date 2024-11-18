@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{AF2D0C3D-2669-2DB4-9C31-FEBECE3FCD01}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CB824875-94F4-09D1-9535-E3D32EB1D75C}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -74,6 +74,10 @@
 					<ShortName>FlautaAcomp.wav</ShortName>
 					<CachePath>SFX/FlautaAcomp_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="869465946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>fx-bañera-out.wav</ShortName>
+					<CachePath>SFX/fx-bañera-out_818F3B66.wem</CachePath>
+				</File>
 				<File Id="905813634" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Percucion.wav</ShortName>
 					<CachePath>SFX/Percucion_FBC78EF0.wem</CachePath>
@@ -120,6 +124,11 @@
 						<MediaRef Id="161855950"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1273609282" Name="Play_fx_ba_era_out" DurationType="OneShot" DurationMin="3.1535625" DurationMax="3.1535625">
+					<MediaRefs>
+						<MediaRef Id="869465946"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2915561602" Name="Play_fx_cocina" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="773121538"/>
@@ -163,5 +172,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F7BE812E-6EE2-033D-4A9B-7B7596B3E7BF}</FileHash>
+	<FileHash>{45462EF6-0B04-D044-BD10-5AFE7DD4BA62}</FileHash>
 </SoundBanksInfo>

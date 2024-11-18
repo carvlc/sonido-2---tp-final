@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	425893000	Play_fx_televisor			\Default Work Unit\Play_fx_televisor	
 	816454329	Play_fx_heladera			\Default Work Unit\Play_fx_heladera	
 	988224811	Play_Ba_o_in			\Default Work Unit\Play_Ba_o_in	
+	1273609282	Play_fx_ba_era_out			\Default Work Unit\Play_fx_ba_era_out	
 	1430757354	UnMute_Habitacion			\Default Work Unit\UnMute_Habitacion	
 	1755425866	Play_FX___Notebook			\Default Work Unit\Play_FX___Notebook	
 	1786166790	Play_fx_microondas			\Default Work Unit\Play_fx_microondas	
@@ -15,18 +16,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	4023470985	Mute_Habitacion			\Default Work Unit\Mute_Habitacion	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	161855950	FX - Notebook	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\TPFinalCuarto_5BE193FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX - Notebook		876464
-	252156204	fx-catfish	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-catfish_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-catfish		2461536
-	286294921	Ambiente	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\Ambiente_167E9FAC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente		39222280
-	292183624	SegundaMelodiaHabitacion	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\SegundaMelodiaHabitacion_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\SegundaMelodiaHabitacion		4512096
-	355457478	SegundaMelodiaCocina	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\SegundaMelodiaCocina_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\SegundaMelodiaCocina		4512096
-	423623887	fx-televisor	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-televisor_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-televisor		3514916
-	557684938	fx-horno-microondas	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-horno-microondas_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-horno-microondas		2008416
-	684754697	Baño-in	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\Baño-in_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baño-in		605580
-	713217392	SegundaMelodiaBaño	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\SegundaMelodiaBaño_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\SegundaMelodiaBaño		4512096
-	718561185	fx-heladera	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-heladera_EA6C20AA.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-heladera		1357584
-	773121538	fx-cocinando	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-cocinando_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-cocinando		2374940
-	791139087	FlautaAcomp	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\FlautaAcomp_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\FlautaAcomp		4512096
-	905813634	Percucion	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\Percucion_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\Percucion		4512096
-	1046704212	MelodiaPrincipal	D:\Facultad\2 año\2º cuatrimestre\Diseño de Sonido II\sonido-2---tp-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\MelodiaPrincipal_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\MelodiaPrincipal		4512096
+	161855950	FX - Notebook	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\TPFinalCuarto_5BE193FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX - Notebook		876464
+	252156204	fx-catfish	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-catfish_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-catfish		2461536
+	286294921	Ambiente	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\Ambiente_167E9FAC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiente		39222280
+	292183624	SegundaMelodiaHabitacion	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\SegundaMelodiaHabitacion_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\SegundaMelodiaHabitacion		4512096
+	355457478	SegundaMelodiaCocina	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\SegundaMelodiaCocina_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\SegundaMelodiaCocina		4512096
+	423623887	fx-televisor	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-televisor_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-televisor		3514916
+	557684938	fx-horno-microondas	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-horno-microondas_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-horno-microondas		2008416
+	684754697	Baño-in	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\Baño-in_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baño-in		605580
+	713217392	SegundaMelodiaBaño	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\SegundaMelodiaBaño_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\SegundaMelodiaBaño		4512096
+	718561185	fx-heladera	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-heladera_EA6C20AA.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-heladera		1357584
+	773121538	fx-cocinando	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-cocinando_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-cocinando		2374940
+	791139087	FlautaAcomp	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\FlautaAcomp_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\FlautaAcomp		4512096
+	869465946	fx-bañera-out	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\fx-bañera-out_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\fx-bañera-out		605580
+	905813634	Percucion	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\Percucion_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\Percucion		4512096
+	1046704212	MelodiaPrincipal	M:\web\sonido-2-TP-final\sonido-2---tp-final_WwiseProject\.cache\Mac\SFX\MelodiaPrincipal_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\MIX\MelodiaPrincipal\MelodiaPrincipal		4512096
 

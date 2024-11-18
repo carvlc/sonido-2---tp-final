@@ -247,6 +247,28 @@
 						<ActiveSource Name="fx-horno-microondas" ID="{A7EBD689-370A-42A0-8B12-D87DE8BA5CDB}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="fx-bañera-out" ID="{1DAE1C6A-E6D9-4570-8F9E-AB8AFEA46007}" ShortID="19709716">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B0EB853-EE00-4698-B5C4-A1F6C4763C69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EB616627-0573-4269-91F1-02000932AC86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fx-bañera-out" ID="{2869AED8-D59C-4B2E-BE7F-1F1B812E15F9}">
+							<Language>SFX</Language>
+							<AudioFile>fx-bañera-out.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="869465946"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fx-bañera-out" ID="{2869AED8-D59C-4B2E-BE7F-1F1B812E15F9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

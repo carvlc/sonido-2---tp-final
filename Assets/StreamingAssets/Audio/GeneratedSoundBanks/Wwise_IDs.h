@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_AMBIENTE = 94063951U;
         static const AkUniqueID PLAY_BA_O_IN = 988224811U;
         static const AkUniqueID PLAY_FX___NOTEBOOK = 1755425866U;
+        static const AkUniqueID PLAY_FX_BA_ERA_OUT = 1273609282U;
         static const AkUniqueID PLAY_FX_COCINA = 2915561602U;
         static const AkUniqueID PLAY_FX_HELADERA = 816454329U;
         static const AkUniqueID PLAY_FX_MAQUINITA = 2280983726U;

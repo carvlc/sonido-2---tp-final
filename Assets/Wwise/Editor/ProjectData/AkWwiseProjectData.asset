@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 56febe24469aac44ad0b1528bbfba685
     GuidInternal: 
-    m_lastTime: -8584696338708234702
+    m_lastTime: -8584696287468787529
     List:
     - name: Mute_Banio
       guid: f0bd61c027c36c4b83b43a6ae18ac96f
@@ -297,7 +297,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3365e202cf93504ba6ab883810437242
       Path: Events\Default Work Unit\Play_fx_televisor
-      maxAttenuation: 4
+      maxAttenuation: 6
       maxDuration: -1
       minDuration: -1
     - name: UnMute_Banio

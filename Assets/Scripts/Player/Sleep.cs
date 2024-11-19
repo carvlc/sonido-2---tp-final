@@ -11,4 +11,12 @@ public class Sleep : MonoBehaviour
             player.transform.GetComponent<Sleeping>().Dormir(true);
         }
     }
+
+    private void OnTriggerExit(Collider player)
+    {
+        if (player.transform.CompareTag("Player"))
+        {
+            player.transform.GetComponent<Sleeping>().Dormir(false);
+        }
+    }
 }

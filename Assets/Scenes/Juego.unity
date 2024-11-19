@@ -999,6 +999,8 @@ GameObject:
   - component: {fileID: 282783777}
   - component: {fileID: 282783776}
   - component: {fileID: 282783775}
+  - component: {fileID: 282783779}
+  - component: {fileID: 282783780}
   m_Layer: 0
   m_Name: Mimitchi
   m_TagString: Player
@@ -1180,6 +1182,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barraAseo: {fileID: 373895583}
+--- !u!114 &282783779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282783768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e3f7fc7cadaa04dbe432a63eb0dcf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &282783780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282783768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29db29caef728d6459c6158a167165df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &287548067
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,6 @@ public class CameraPlayer : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Hola Papus, I am Mimitchi");
         Cursor.lockState = CursorLockMode.Locked;
     }
 

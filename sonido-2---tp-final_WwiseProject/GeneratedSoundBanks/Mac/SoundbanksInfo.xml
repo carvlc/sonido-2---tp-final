@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CB824875-94F4-09D1-9535-E3D32EB1D75C}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{96B2BD57-7C76-6A56-0FE4-7DAA52E71260}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -149,7 +149,7 @@
 						<MediaRef Id="557684938"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="425893000" Name="Play_fx_televisor" MaxAttenuation="4" DurationType="Infinite">
+				<Event Id="425893000" Name="Play_fx_televisor" MaxAttenuation="6" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="423623887"/>
 					</MediaRefs>
@@ -172,5 +172,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B82FE38F-94A7-94BB-0903-7A6693F1DEE0}</FileHash>
+	<FileHash>{0FF4A2F9-46BB-AEB1-DF60-8DD818BFE8D9}</FileHash>
 </SoundBanksInfo>

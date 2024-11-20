@@ -254,7 +254,7 @@
 				</Attenuation>
 				<Attenuation Name="heladera" ID="{CA628A9E-9211-4CF9-BC81-5A4C4259E4BB}" ShortID="426275253">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="3"/>
+						<Property Name="RadiusMax" Type="Real64" Value="5"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -271,7 +271,7 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>3</XPos>
+											<XPos>5</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -420,7 +420,7 @@
 				</Attenuation>
 				<Attenuation Name="televisor" ID="{9F348D56-9E16-4D39-82E1-7438B7B51D5F}" ShortID="169976552">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="4"/>
+						<Property Name="RadiusMax" Type="Real64" Value="6"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -437,7 +437,7 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>4</XPos>
+											<XPos>6</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

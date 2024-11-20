@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{96B2BD57-7C76-6A56-0FE4-7DAA52E71260}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{89D74F8E-7C58-E69D-4B08-0D30177EBA84}">
 			<ShortName>main</ShortName>
 			<Path>main.bnk</Path>
 			<Media>
@@ -134,7 +134,7 @@
 						<MediaRef Id="773121538"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="816454329" Name="Play_fx_heladera" MaxAttenuation="3" DurationType="Infinite">
+				<Event Id="816454329" Name="Play_fx_heladera" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="718561185"/>
 					</MediaRefs>
@@ -172,5 +172,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0CE27437-0A6D-240E-9B78-E2E4537DBD26}</FileHash>
+	<FileHash>{5CE4CDBB-E8B3-978A-51BF-F349EEF029AF}</FileHash>
 </SoundBanksInfo>

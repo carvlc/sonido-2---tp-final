@@ -246,7 +246,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 000e309159634d47b8847b8a524d2ca2
       Path: Events\Default Work Unit\Play_fx_heladera
-      maxAttenuation: 3
+      maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
     - name: Play_fx_maquinita
